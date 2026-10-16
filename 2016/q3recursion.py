@@ -39,9 +39,6 @@ def recur_calculate(n, height, checked):
         child_list.append(child)
         checked.append(child)
 
-  if child_list == []:
-    return 0
-
   return recur_calculate(child_list, height+1, checked)
 
 checked=[p]
